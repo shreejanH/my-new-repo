@@ -13,7 +13,7 @@ def create_github_repo(repo_name, access_token):
         print(f"Repository '{repo_name}' created successfully!")
     else:
         print(f"Failed to create repository '{repo_name}'. Reason: {response.text}")
-access_token = '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'
+access_token = ${{secrets.PAT}}
 repo_name = 'my-new-repo'
 
 create_github_repo(repo_name, access_token)
