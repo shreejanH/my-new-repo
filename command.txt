@@ -16,7 +16,8 @@
    14  ls
    15  touch command.txt
    16  history
-
+   17 git pull
+    
 
 #git config
 git config --global user.name "Your Name"
