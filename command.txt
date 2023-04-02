@@ -25,5 +25,6 @@ git config --global core.editor "nano"
 git config --global credential.helper cache
 git clone https://github.com/username/repository.git
 git add .
+git status
 git commit -m "Commit message"
 git push
