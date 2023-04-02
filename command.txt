@@ -1,0 +1,30 @@
+  #git commands
+
+    1  ls
+    2  git branch
+    3  cd my-new-repo
+    4  git branch
+    5  git branch -a
+    6  history
+    7  clear
+    8  git remote -v
+    9  git branch shfeature
+   10  git branch
+   11  git checkout shfeature
+   12  clear
+   13  git branch
+   14  ls
+   15  touch command.txt
+   16  history
+
+
+#git config
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+git config --global core.editor "nano"
+git config --global credential.helper cache
+git clone https://github.com/username/repository.git
+git add .
+git status
+git commit -m "Commit message"
+git push
